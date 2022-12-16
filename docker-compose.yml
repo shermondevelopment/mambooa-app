@@ -8,14 +8,14 @@ services:
     ports:
      - '27017:27017'
   api_mamboo:
-    build: ./mamboo-back
+    build: ./mamboo-app-back
     ports: 
      - '3001:3001'
     depends_on:
       - 'db_mamboo'
   front_mamboo:
     container_name: front_mamboo
-    build: ./mamboo-app-front
+    build: ./mamboo-front-app
     volumes: 
       - build_react:/var/www/html
   nginx_mamboo:
