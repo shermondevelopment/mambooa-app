@@ -16,6 +16,7 @@ create a system where I can create my board and within these boards I can have s
 - Node.js
 - MongoDb
 - JWT
+- Bcrypt
 
 ## Instructions on how to run with Docker
 
@@ -23,14 +24,6 @@ create a system where I can create my board and within these boards I can have s
   You need to have installed the following tools: Git, Docker, Docker Compose. It will be necessary for port 3001 to be available for the application and mongodb will use port 27017.
 </p>
 
-<p> 
- Clone the repository to a folder of your choice
-<p/>
-
-
-```yml
-https://github.com/shermondevelopment/mamboo.git
-```
 
 <p>
  then go up the application's docker container:
