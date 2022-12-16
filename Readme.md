@@ -21,6 +21,22 @@ create a system where I can create my board and within these boards I can have s
 ## Instructions on how to run with Docker
 
 <p>
+ you must bring the subprojects into the project
+</p>
+
+```yml
+ git submodule init
+```
+
+<p>
+  right after synchronizing with the subprojects
+</p>
+
+```yml
+ git submodule update
+```
+
+<p>
   You need to have installed the following tools: Git, Docker, Docker Compose. It will be necessary for port 3001 to be available for the application and mongodb will use port 27017.
 </p>
 
