@@ -18,7 +18,7 @@ create a system where I can create my board and within these boards I can have s
 - JWT
 - Bcrypt
 
-## Instructions on how to run with Docker
+## Instructions for running subprojects
 
 <p>
  you must bring the subprojects into the project
@@ -35,6 +35,8 @@ create a system where I can create my board and within these boards I can have s
 ```yml
  git submodule update
 ```
+
+## Instructions on how to run with Docker
 
 <p>
   You need to have installed the following tools: Git, Docker, Docker Compose. It will be necessary for port 3001 to be available for the application and mongodb will use port 27017.
