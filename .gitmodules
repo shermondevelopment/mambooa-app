@@ -1,0 +1,6 @@
+[submodule "mamboo-app-back"]
+	path = mamboo-app-back
+	url = https://github.com/shermondevelopment/mamboo-app-back.git
+[submodule "mamboo-front-app"]
+	path = mamboo-front-app
+	url = https://github.com/shermondevelopment/mamboo-front-app.git
